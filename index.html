@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#menu">Zarejestruj się!</a></li>
+      </ul>
+    </nav>
+    <div class="rejdis">
+      <main>
+        <form id="registration-form">
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="name">Imie:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+          <button type="submit">Rejestracja</button>
+        </form>
+      </main>
+      <div class="discound">
+        <h1 class="imgdis">15%</h1>
+        <p>
+          Jeżeli jesteś zarejestrowany, to otrzymujesz kupon na 15% zniżki do
+          towarów
+        </p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#menu">Promocja!</a></li>
+      </ul>
+    </nav>
+    <div class="hotdog">
+      <h3 class="zlap">ZłAP HOT-DOG ZA 4.5ZŁ!</h3>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+      </ul>
+    </nav>
+    <div class="buy">
+      <div class="products">
+        <div class="section section-1">
+          <h3>Słodkie<button class="toggle-section">Pokazać</button></h3>
+          <div
+            class="product product-1 hidden"
+            data-name="Bułeczka"
+            data-price="2.50"
+          >
+            <p class="fonok">Bułeczki - zł 4.0</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+          <div
+            class="product product-2 hidden"
+            data-name="Rogalik"
+            data-price="1.50"
+          >
+            <p class="fonok1">Rogaliki - zł 6.0</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+        </div>
+        <div class="section section-2">
+          <h3>Słone <button class="toggle-section">Pokazać</button></h3>
+          <div
+            class="product product-3 hidden"
+            data-name="HOT-DOG"
+            data-price="3.00"
+          >
+            <p class="fonok">Hot-Dog - zł 4.5!</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+          <div
+            class="product product-4 hidden"
+            data-name="Kanapka"
+            data-price="5.00"
+          >
+            <p class="fonok1">Kanapki - zł 7.00</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+        </div>
+        <div class="section section-3">
+          <h3>Sałątki <button class="toggle-section">Pokazać</button></h3>
+          <div
+            class="product product-5 hidden"
+            data-name="Cezar"
+            data-price="2.00"
+          >
+            <p class="fonok">Cezar - zł 10.00</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+          <div
+            class="product product-6 hidden"
+            data-name="Drwała"
+            data-price="1.00"
+          >
+            <p class="fonok1">Drwałą - zł 11.00</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+        </div>
+        <div class="section section-4">
+          <h3>Napoje <button class="toggle-section">Pokazać</button></h3>
+          <div
+            class="product product-7 hidden"
+            data-name="Kawa"
+            data-price="1.50"
+          >
+            <p class="fonok">Kawa - zł 4.00</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+          <div
+            class="product product-8 hidden"
+            data-name="Lemonada"
+            data-price="4.50"
+          >
+            <p class="fonok1">Lemonada - zł 4.50</p>
+            <button class="add-to-cart">Dodać</button>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#menu">Zrób swój HOT-DOG</a></li>
+        </ul>
+      </nav>
+      <div class="custom-hotdog">
+        <div class="wybor">
+          <label for="sausage">Wybierz kiełbaskę:</label>
+          <select id="sausage" class="sausage">
+            <option value="" selected disabled>Wybierz</option>
+            <option value="Parówka">Parówka</option>
+            <option value="Kabanos">Kabanos</option>
+            <option value="Wegańska">Wegańska</option>
+          </select>
+        </div>
+        <div class="wybor">
+          <label for="sauce">Wybierz sos:</label>
+          <select id="sauce" class="sauce">
+            <option value="" selected disabled>Wybierz</option>
+            <option value="Amerykański">Amerykański</option>
+            <option value="Ketczup">Ketczup</option>
+            <option value="1000wysp">1000wysp</option>
+          </select>
+        </div>
+        <button class="add-custom-hotdog">Dodaj hot doga do koszyka</button>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#menu">Twoje zamówienie</a></li>
+        </ul>
+      </nav>
+
+      <div class="cart">
+        <div class="cenka">
+          <ul class="cart-items"></ul>
+          <div class="total">Cena: <span id="total-price">0.00 zł</span></div>
+        </div>
+        <div class="kup">
+          <button class="buy-btn">Kupuję</button>
+          <button class="clear-cart">Oczyść</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="checkout-modal">
+      <div class="modal-content">
+        <h3>Paragon</h3>
+        <ul id="checkout-list"></ul>
+        <p>Wpisz kod BLIK:</p>
+        <input type="text" id="verification-code" maxlength="6" />
+        <button id="confirm-purchase">Подтвердить</button>
+      </div>
+    </div>
+
+    <div class="dop"></div>
+
+    <footer>
+      <p id="coupon-status">Promocja: Nie aktywowana</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

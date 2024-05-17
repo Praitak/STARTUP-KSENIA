@@ -1,0 +1,390 @@
+/* Reset CSS */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #626d71 */
+/* #cdcdc0 */
+/* #ddbc95 */
+/* #b38867 */
+
+/* #6c5f5b */
+/* #cdab81 */
+/* #dac3b3 */
+/* #4f4a45 */
+
+html {
+  background-image: url(black-and-white-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  opacity: 96%;
+  margin: auto;
+  width: 600px;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background-color: #596e79;
+  font-size: 10px;
+}
+
+nav {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  background-color: #8d93ab;
+  padding: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+  background-image: url(1.jpg);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 50%;
+  opacity: 90%;
+  background-color: #ebecf1;
+  padding: 40px;
+  margin-right: 10px;
+}
+
+.imgdis {
+  margin-bottom: 70px;
+  color: #8d93ab;
+  font-size: 100px;
+  text-align: center;
+}
+
+.rejdis {
+  display: flex;
+}
+
+.rejdis input {
+  background-color: #d6e0f0;
+}
+
+.discound {
+  background-image: url(2.png);
+  color: #b1e1a2;
+  margin-right: 12px;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  width: 50%;
+  background-color: #ebecf1;
+  padding: 40px;
+}
+
+.discound p {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.hotdog {
+  background-image: url(hotdog.jpg);
+  border-radius: 10px;
+  opacity: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.zlap {
+  font-size: 22px;
+  background-color: rgb(255, 93, 75);
+  width: 25%;
+  border-radius: 40px;
+  padding: 30px;
+  padding-left: 20px;
+}
+
+.buy {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.section-1 {
+  background-image: url(chocolate-cartoon-illustration.jpg);
+  width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section-2 {
+  background-image: url(high-angle-delicious-hot-dog-with-onion.jpg);
+  width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section-3 {
+  background-image: url(top-view-tasty-salad-with-boiled-eggs.jpg);
+  width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section-4 {
+  background-image: url(high-angle-mix-alcoholic-drinks.jpg);
+  width: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.fonok {
+  width: 150px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.fonok1 {
+  width: 150px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.product-1 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(1.jpg);
+  color: #ffffff;
+}
+
+.product-2 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(2.png);
+  color: #000;
+}
+
+.product-3 {
+  opacity: 80%;
+  border-radius: 10px;
+  color: red;
+  background-image: url(1.jpg);
+}
+
+.product-4 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(2.png);
+  color: #000;
+}
+
+.product-5 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(1.jpg);
+  color: #ffffff;
+}
+
+.product-6 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(2.png);
+  color: #000;
+}
+
+.product-7 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(1.jpg);
+  color: #ffffff;
+}
+
+.product-8 {
+  opacity: 80%;
+  border-radius: 10px;
+  background-image: url(2.png);
+  color: #000;
+}
+
+.custom-hotdog {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 40px;
+  background-image: url(hotka.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  background-size: cover;
+  margin: 20px 0;
+}
+
+.custom-hotdog div {
+  margin-bottom: 10px;
+}
+
+.wybor {
+  background-color: #8d93ab;
+  padding: 20px;
+  opacity: 80%;
+}
+
+.wybor select {
+  opacity: 90%;
+  height: 50px;
+  width: 150px;
+  border: none;
+  color: #596e79;
+}
+
+.wybor option {
+  color: #8d93ab;
+  width: 40px;
+}
+
+.cart {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cenka {
+  width: 50%;
+}
+
+.kup {
+  width: 50%;
+}
+
+.kup button {
+  width: 200px;
+}
+
+.cart img {
+  width: 100px;
+}
+
+.cart-items {
+  font-size: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.clear-cart,
+.buy-btn {
+  margin-top: 10px;
+}
+
+.basket {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.total {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="text"],
+button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #8d93ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dop {
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #8d93ab;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 580px;
+}
